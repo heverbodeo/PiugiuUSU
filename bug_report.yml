@@ -3,14 +3,7 @@ description: Submit a bug report to help us improve
 title: "[BUG] "
 labels: ["C-bug", "S-awaiting-triage"]
 body:
-  - type: markdown
-    attributes:
-      value: |
-        We value your time and effort to submit this bug report. Here are a few things to check before clicking the submit button :)
-        1. Make sure you're on the latest version of the app. The current release can be found here: https://github.com/juspay/hyperswitch/releases/latest.
-        2. Search through **both** open and closed issues for your bug: https://github.com/juspay/hyperswitch/issues?q=is%3Aissue+sort%3Aupdated-desc+.
-        3. Please try to fill this template completely to the best of your abilities. A bug report that is clear and has a reproducible example lets us get to work faster.
-
+  
   - type: textarea
     id: bug-description
     attributes:
@@ -96,7 +89,6 @@ body:
     id: willing-to-submit-pr
     attributes:
       label: Are you willing to submit a PR?
-      description: This is absolutely not required, but we are happy to guide you in the contribution process.
       options:
         - Yes I am willing to submit a PR!
         - No, but I'm happy to collaborate on a PR with someone else
